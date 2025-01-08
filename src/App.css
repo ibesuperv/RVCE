@@ -1,0 +1,108 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter';
+  background: #fdfdfd;
+   cursor: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxMCIgZmlsbD0iI0U4QjA1OSIvPjwvc3ZnPg=='),auto;
+
+   overscroll-behavior-y: none;
+    font-family: 'Inter var', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #ddd;
+    background: #12071f;
+}
+
+.image {
+  width: 100%; /* Ensures image takes full width */
+  height: 100%; /* Ensures image takes full height */
+  object-fit: cover; /* Keeps aspect ratio while covering the container */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  overflow: hidden; /* Ensures the scaled image stays within bounds */
+}
+
+.image figure img {
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+
+.ai-part{
+  width: 90%;
+   margin: 0 auto;
+
+}
+
+a {
+  color: black;
+}
+
+a {
+  pointer-events: all;
+  color: black;
+  text-decoration: none;
+}
+
+svg {
+  fill: rgb(26, 24, 24);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+canvas {
+
+  touch-action: none;
+  animation: fade-in 5s ease 1s forwards;
+}
+
+
+
+a {
+  pointer-events: all;
+  color: #ddd;
+  text-decoration: none;
+}
+
+svg {
+  fill: #ddd;
+}
+
+.h1text {
+  background: linear-gradient(30deg, #c850c0, #ffcc70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home {
+  cursor: url('/work_.png'), auto;
+}
+
